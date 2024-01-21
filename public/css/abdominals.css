@@ -1,0 +1,63 @@
+*{
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.navbar{
+    background: rgb(232, 21, 21);
+    font-family: 'Bebas Neue', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    margin-left: 24px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color:white;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+/*cards*/
+
+.cards{
+    width: 278px;
+    margin: 40px;
+    background-color: rgb(228, 228, 228);
+    display: inline-block;
+}
+.image img{
+    height: 228px;
+    width: 278px;
+}
+.card-title{
+    text-align: center;
+}
+.des{
+    text-align: center;
+}
+button{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 0px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
